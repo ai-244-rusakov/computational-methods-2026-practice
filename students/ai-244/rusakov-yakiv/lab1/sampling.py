@@ -1,4 +1,5 @@
 """Завдання 6. Керування випадковістю: temperature і top_p (варіант 8)."""
+from logsetup import print  # друк іде і в консоль, і в lab1.log
 import json
 
 from providers import make_client

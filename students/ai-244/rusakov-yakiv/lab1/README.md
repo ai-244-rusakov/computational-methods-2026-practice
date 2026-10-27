@@ -3,7 +3,7 @@
 ```bash
 python -m venv venv && venv\Scripts\activate      # Windows (Linux/macOS: source venv/bin/activate)
 pip install -r requirements.txt
-cp .env.example .env                                 # впишіть CLOUD_API_KEY (Groq / Google AI Studio)
+echo CLOUD_API_KEY=ваш_ключ > .env                  # ключ Groq / Google AI Studio (.env у репозиторій не потрапляє)
 ollama pull qwen3:4b && ollama pull llama3.2:3b
 
 python task1_reasoning.py   # завдання 1 -> task1_results.json
@@ -17,4 +17,4 @@ python sampling.py          # завдання 6 -> sampling_results.json
 ```
 
 Після прогонів заповніть `report.md` і експортуйте його в `report.pdf` (вимога методички).
-`.env` у репозиторій не потрапляє (він у `.gitignore`).
+Журнал виконання пишеться у `lab1.log` (модуль `logsetup.py`). `.env` у репозиторій не потрапляє (він у `.gitignore`).

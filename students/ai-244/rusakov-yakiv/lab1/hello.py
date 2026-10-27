@@ -1,4 +1,5 @@
 """Завдання 2. Роль system-повідомлення (варіант 8)."""
+from logsetup import print  # друк іде і в консоль, і в lab1.log
 import json
 import re
 

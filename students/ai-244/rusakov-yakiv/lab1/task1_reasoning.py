@@ -2,6 +2,7 @@
 
 Використовує лише стандартну бібліотеку: запити йдуть напряму на /api/generate.
 """
+from logsetup import print  # друк іде і в консоль, і в lab1.log
 import json
 import re
 import urllib.request

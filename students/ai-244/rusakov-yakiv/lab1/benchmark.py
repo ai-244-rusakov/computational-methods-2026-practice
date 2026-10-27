@@ -1,4 +1,5 @@
 """Завдання 4. Вимірювання швидкості: TTFT і залежність від довжини запиту (варіант 8)."""
+from logsetup import print  # друк іде і в консоль, і в lab1.log
 import csv
 import os
 import statistics

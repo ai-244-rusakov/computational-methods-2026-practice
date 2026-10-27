@@ -1,4 +1,5 @@
 """Завдання 3. Локальна vs хмарна модель (варіант 8)."""
+from logsetup import print  # друк іде і в консоль, і в lab1.log
 import time
 
 from providers import make_client

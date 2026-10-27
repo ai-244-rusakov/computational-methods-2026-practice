@@ -2,6 +2,7 @@
 
 0 балів — не парситься; 1 — парситься після видалення markdown-обгортки / вступної фрази; 2 — парситься одразу.
 """
+from logsetup import print  # друк іде і в консоль, і в lab1.log
 import json
 import re
 
