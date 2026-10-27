@@ -5,7 +5,7 @@
 ```bash
 python -m venv venv && venv\Scripts\activate
 pip install openai pydantic python-dotenv "langfuse>=4"
-cp .env.example .env        # ключі Langfuse (https://cloud.langfuse.com, проєкт agents-lab3)
+# створіть .env з рядками LANGFUSE_PUBLIC_KEY=..., LANGFUSE_SECRET_KEY=..., LANGFUSE_HOST=https://cloud.langfuse.com (.env не комітити)
 
 # Linux/macOS:  export PYTHONPATH=../../../..
 python test_checks.py       # табл. 2, без моделі
